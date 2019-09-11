@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}tikzpicture\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}draw}\PYG{n+na}{[help lines]} (0,0) grid (3,3);
+\PYG{k}{\PYGZbs{}node} (h) at (0,0) \PYG{n+nb}{\PYGZob{}}H\PYG{n+nb}{\PYGZcb{}};
+\PYG{k}{\PYGZbs{}node} (x) at (1.5,1.5) \PYG{n+nb}{\PYGZob{}}\PYG{l+s}{\PYGZdl{}}\PYG{n+nv}{\PYGZbs{}xi}\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{\PYGZcb{}};
+\PYG{k}{\PYGZbs{}node} (t) at (3,0) \PYG{n+nb}{\PYGZob{}}T\PYG{n+nb}{\PYGZcb{}};
+\PYG{k}{\PYGZbs{}draw}\PYG{n+na}{[\PYGZhy{}\PYGZgt{}]} (x) \PYGZhy{}\PYGZhy{} (h);
+\PYG{k}{\PYGZbs{}draw}\PYG{n+na}{[\PYGZhy{}\PYGZgt{}]} (x) \PYGZhy{}\PYGZhy{} (t);
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}tikzpicture\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

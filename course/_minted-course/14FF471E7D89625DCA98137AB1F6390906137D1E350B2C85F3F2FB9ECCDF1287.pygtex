@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}tikzpicture\PYG{n+nb}{\PYGZcb{}}[scale=0.5]
+\PYG{c}{\PYGZpc{} y axis}
+\PYG{k}{\PYGZbs{}draw}\PYG{n+na}{[\PYGZlt{}\PYGZhy{}\PYGZgt{}, thick]} (0,2) \PYGZhy{}\PYGZhy{} (0,\PYGZhy{}2);
+\PYG{c}{\PYGZpc{} x axis}
+\PYG{k}{\PYGZbs{}draw}\PYG{n+na}{[ \PYGZhy{}\PYGZgt{}, thick]} (0,0) \PYGZhy{}\PYGZhy{} (7, 0);
+\PYG{c}{\PYGZpc{} curves}
+\PYG{k}{\PYGZbs{}draw}\PYG{n+na}{[cyan,domain=0:2*pi]}
+  plot (\PYG{k}{\PYGZbs{}x}, \PYG{n+nb}{\PYGZob{}}sin(\PYG{k}{\PYGZbs{}x} r)\PYG{n+nb}{\PYGZcb{}});
+\PYG{k}{\PYGZbs{}draw}\PYG{n+na}{[magenta,domain=0:2*pi]}
+  plot (\PYG{k}{\PYGZbs{}x}, \PYG{n+nb}{\PYGZob{}}cos(\PYG{k}{\PYGZbs{}x} r)\PYG{n+nb}{\PYGZcb{}});
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}tikzpicture\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

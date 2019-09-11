@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+Text in \PYG{k}{\PYGZbs{}textbf}\PYG{n+nb}{\PYGZob{}}bold face\PYG{n+nb}{\PYGZcb{}}.
+Text in \PYG{k}{\PYGZbs{}textit}\PYG{n+nb}{\PYGZob{}}italics\PYG{n+nb}{\PYGZcb{}}.
+\end{Verbatim}

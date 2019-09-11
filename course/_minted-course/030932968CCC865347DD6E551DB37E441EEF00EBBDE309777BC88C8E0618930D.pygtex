@@ -1,0 +1,19 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}documentclass}\PYG{n+nb}{\PYGZob{}}article\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}usepackage}\PYG{n+nb}{\PYGZob{}}natbib\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}document\PYG{n+nb}{\PYGZcb{}}
+
+\PYG{k}{\PYGZbs{}citet}\PYG{n+nb}{\PYGZob{}}Brooks1997Methodology\PYG{n+nb}{\PYGZcb{}}
+show that \PYG{k}{\PYGZbs{}ldots}. Clearly,
+all odd numbers are prime
+\PYG{k}{\PYGZbs{}citep}\PYG{n+nb}{\PYGZob{}}Jacobson1999Towards\PYG{n+nb}{\PYGZcb{}}.
+
+\PYG{k}{\PYGZbs{}bibliography}\PYG{n+nb}{\PYGZob{}}bib\PYGZhy{}example\PYG{n+nb}{\PYGZcb{}} 
+\PYG{c}{\PYGZpc{} if `bib\PYGZhy{}example\PYGZsq{} is the name of}
+\PYG{c}{\PYGZpc{} your bib file}
+
+\PYG{k}{\PYGZbs{}bibliographystyle}\PYG{n+nb}{\PYGZob{}}plainnat\PYG{n+nb}{\PYGZcb{}}
+\PYG{c}{\PYGZpc{} try changing to abbrvnat}
+
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}document\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

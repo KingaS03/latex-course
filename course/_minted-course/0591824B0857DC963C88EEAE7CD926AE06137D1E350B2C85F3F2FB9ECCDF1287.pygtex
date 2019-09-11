@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+It \PYG{k}{\PYGZbs{}textcolor}\PYG{n+nb}{\PYGZob{}}red\PYG{n+nb}{\PYGZcb{}\PYGZob{}}stops\PYG{n+nb}{\PYGZcb{}}
+and \PYG{k}{\PYGZbs{}textcolor}\PYG{n+nb}{\PYGZob{}}green\PYG{n+nb}{\PYGZcb{}\PYGZob{}}starts\PYG{n+nb}{\PYGZcb{}}.
+\end{Verbatim}

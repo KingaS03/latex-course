@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}tikzpicture\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}draw}\PYG{n+na}{[help lines]} (0,0) grid (3,3);
+\PYG{k}{\PYGZbs{}draw}\PYG{n+na}{[\PYGZhy{}\PYGZgt{}]} (0,0) \PYGZhy{}\PYGZhy{} (1,1);
+\PYG{k}{\PYGZbs{}draw}\PYG{n+na}{[\PYGZlt{}\PYGZhy{}\PYGZgt{}, thick]} (2,1) \PYGZhy{}\PYGZhy{} (1,2);
+\PYG{k}{\PYGZbs{}draw}\PYG{n+na}{[\PYGZlt{}\PYGZhy{}, thick, dashed]} (2,2)\PYGZhy{}\PYGZhy{}(3,3);
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}tikzpicture\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}
