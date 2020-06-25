@@ -1,0 +1,47 @@
+\documentclass{article}
+
+\usepackage{maa-monthly}
+\title{Trying out style sheets}
+
+\newcommand{\hg}{Heisenberg group}
+
+\newenvironment{myboxed}
+{\begin{center}
+		\begin{tabular}{|p{0.9\textwidth}|}
+			\hline\\
+		}
+	{
+			\\\\\hline
+		\end{tabular} 
+	\end{center}
+}
+
+\newenvironment{myboxedtwocolumns}[2]
+{\begin{center}
+		\begin{tabular}{|c|c|}
+			\hline\\
+				{#1} & {#2}
+			\\\\\hline
+		\end{tabular} 
+	\end{center}
+}
+
+\begin{document}
+\maketitle
+
+\begin{itemize}
+	\item 
+\end{itemize}
+
+\begin{myboxed}
+	sjakkd kldj dslkjc
+\end{myboxed}
+
+\myboxedtwocolumns{Text in box.}{Another text.}
+
+
+\vspace{2cm}
+
+Some new paragraph about the \hg.
+
+\end{document}
